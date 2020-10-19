@@ -1,0 +1,54 @@
+.left-side{
+    max-width: 30%;
+    float: left;
+    margin-left : 7%;
+    margin-right: 5%;
+    padding-top:10%;
+    color: #fff;
+}
+.right-side{
+    width: 58%;
+    padding-top:10%;
+    display: flex;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    border-radius: 25px;
+    position: relative;
+    color: #fff;
+}
+.card h2{
+    position: absolute;
+    bottom: 8px;
+    left: 16px; 
+}
+
+.first-card{
+    background-image:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .3)), url(../../Image/rectangle\ 1.png);
+    background-size: cover;
+    
+    border: 2px solid rgb(195, 195, 6)
+}
+.second-card{
+    background-image : linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%), url(../../Image/Sreemongol.png);
+    background-size: cover;
+   
+}
+.third-card{
+    background-image : linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%), url(../../Image/sundorbon.png);
+    background-size: cover;
+   
+}
+.home{
+    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)), url(https://i.ibb.co/Lgq3MRT/home.png);
+    background-size: cover;
+    height: 593px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+

@@ -1,0 +1,30 @@
+
+.hotel-dtl{
+    width: 55%;
+}
+.hotel-sec{
+    display: flex;
+}
+.paper{
+    border: none;
+    margin: 30px 0;
+    height: 170px;
+}
+.hotel-img{
+    height: 150px;
+    border-radius: 5px;
+}
+.fa-star{
+    color: orange;
+    font-size: 25px;
+}
+.amount{
+    padding-left: 70px;
+}
+.total-amount{
+    color: black;
+}
+.hotel-map{
+    width: 35%;
+    margin-left: 5%;
+}
